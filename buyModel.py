@@ -6,6 +6,7 @@ import matplotlib as plt
 from sklearn.model_selection import train_test_split
 
 ## TODO: move real-time section to a update file/function. In main block, iterate over columns names (stock names), grab specific data using pandas, then process. 
+## TODO: include TA lib data processing to include desired indicators as well as pool past data. 
 
 def processData(fileName):
     df = pd.read_csv(fileName)
