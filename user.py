@@ -1,12 +1,12 @@
-import buyModel
-import sellmodel
+# import buyModel
+# import sellmodel
 
 class User:
     positions = {}
 
     def update(self):
         ## this will use TA library to call and pass info to NN
-
+        pass
 
     def add_position(self, stock):
         self.positions[stock] = True
